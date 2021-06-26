@@ -1,6 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Products from './Products'
+import ProductsTSX from './Products2'
+
+function AppPractise() {
+  return(
+    // <Products/>
+    <ProductsTSX />
+  );
+}
 
 function App() {
   return (
@@ -23,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export {App, AppPractise}
